@@ -61,11 +61,9 @@ The portal is a clone of a university management system with separate functional
 
 ## Architecture
 
-The University Portal Clone follows a three-tier architecture:
+- The University Portal Clone follows a three-tier architecture:
 
-Frontend (React)
-
-Communicates with the backend REST API using Axios.
+- Frontend (React) - Communicates with the backend REST API using Axios.
 
 Displays data dynamically using reusable React components.
 
