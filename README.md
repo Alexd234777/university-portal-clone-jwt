@@ -80,3 +80,6 @@ The portal is a clone of a university management system with separate functional
 - Runs locally on port 3306.
 
 Optional Docker setup allows the entire system to run in isolated containers for easy deployment and scalability.
+
+## Set Instructions
+
