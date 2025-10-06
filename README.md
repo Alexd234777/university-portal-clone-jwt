@@ -65,18 +65,13 @@ The portal is a clone of a university management system with separate functional
 
  **Frontend (React)**
   - Communicates with the backend REST API using Axios.
+  - Displays data dynamically using reusable React components.
+  - Runs on localhost:3000.
 
-Displays data dynamically using reusable React components.
-
-Runs on localhost:3000.
-
-Backend (Spring Boot)
-
-Provides RESTful API endpoints for managing users, courses, and events.
-
-Handles authentication, authorization, and business logic.
-
-Runs on localhost:8080.
+ **Backend (Spring Boot)**
+ - Provides RESTful API endpoints for managing users, courses, and events.
+-   Handles authentication, authorization, and business logic.
+- Runs on localhost:8080.
 
 Database (MySQL)
 
