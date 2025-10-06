@@ -73,10 +73,10 @@ The portal is a clone of a university management system with separate functional
 -   Handles authentication, authorization, and business logic.
 - Runs on localhost:8080.
 
-Database (MySQL)
+**Database (MySQL)**
 
-Stores persistent data such as users, courses, and announcements.
+- Stores persistent data such as users, courses, and announcements.
 
-Runs locally on port 3306.
+- Runs locally on port 3306.
 
 Optional Docker setup allows the entire system to run in isolated containers for easy deployment and scalability.
