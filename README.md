@@ -83,3 +83,37 @@ Optional Docker setup allows the entire system to run in isolated containers for
 
 ## Set Instructions
 
+**Step 1 - Clone Repository**
+- git clone https://github.com/yourusername/university-portal-clone.git
+- cd university-portal-clone
+
+**Step 2 - Frontend Setup**
+- cd backend
+- mvn clean install
+- mvn spring-boot:run
+- The React app will start on http://localhost:3000
+
+**Step 3 - Backend Setup**
+- cd backend
+- mvn clean install
+- mvn spring-boot:run
+- The Spring Boot server will start on http://localhost:8080
+
+**Step 4 - Database Setup**
+- Install MySQL(if not already installed)
+- create a database called university_portal
+- Update the database credientials in application.properties:
+  spring.datasource.url=jdbc:mysql://localhost:3306/university_portal
+  spring.datasource.username=root
+  spring.datasource.password=yourpassword
+- Run the backend again to auto-generate tables.
+
+**Step 5 - Docker (Optional)**
+- docker-compose up --build
+- This will start MySQL, the backend, and frontend containers together.
+
+
+
+
+
+
