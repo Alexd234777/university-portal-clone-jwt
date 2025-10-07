@@ -81,7 +81,7 @@ The portal is a clone of a university management system with separate functional
 
 Optional Docker setup allows the entire system to run in isolated containers for easy deployment and scalability.
 
-## Set Instructions
+## Setup Instructions
 
 **Step 1 - Clone Repository**
 - git clone https://github.com/yourusername/university-portal-clone.git
