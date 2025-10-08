@@ -165,6 +165,38 @@ If Docker is used, all components run automatically inside containers.
 
 ![Backend](Backend.png)
 
+## Demo Credentials
+
+For testing and demonstration:
+
+- **Admin Login:**  
+- Email: `admin@university.com`  
+- Password: `admin123`
+
+- **Student Login:**  
+- Email: `student@university.com`  
+- Password: `student123`
+
+---
+
+## Future Enhancements
+
+- Add user profile image uploads  
+- Implement email notifications for course enrollment  
+- Integrate analytics dashboards for administrators  
+- Add pagination and advanced search features  
+- Deploy on AWS or Render with CI/CD pipeline  
+
+---
+
+## License
+
+This project is licensed under the **MIT License** — feel free to use and modify for personal or educational purposes.
+
+---
+
+© 2025 University Portal Clone by Alex Dragoi
+
 
 
 
