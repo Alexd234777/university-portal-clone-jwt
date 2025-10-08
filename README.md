@@ -91,13 +91,13 @@ Optional Docker setup allows the entire system to run in isolated containers for
 - cd backend
 - mvn clean install
 - mvn spring-boot:run
-- The React app will start on http://localhost:3000
+- The React app will start on https://localhost:3000
 
 **Step 3 - Backend Setup**
 - cd backend
 - mvn clean install
 - mvn spring-boot:run
-- The Spring Boot server will start on http://localhost:8080
+- The Spring Boot server will start on https://localhost:8080
 
 **Step 4 - Database Setup**
 - Install MySQL(if not already installed)
@@ -115,9 +115,9 @@ Optional Docker setup allows the entire system to run in isolated containers for
 ## Demo
 Once all services are running locally, open your browser and navigate to:
 
-- Frontend (React): http://localhost:3000
+- Frontend (React): https://localhost:3000
 
-- Backend (Spring Boot API): http://localhost:8080
+- Backend (Spring Boot API): https://localhost:8080
 
 - MySQL Database: Port 3306
 
