@@ -112,6 +112,18 @@ Optional Docker setup allows the entire system to run in isolated containers for
 - docker-compose up --build
 - This will start MySQL, the backend, and frontend containers together.
 
+## Demo
+Once all services are running locally, open your browser and navigate to:
+
+- Frontend (React): http://localhost:3000
+
+- Backend (Spring Boot API): http://localhost:8080
+
+- MySQL Database: Port 3306
+
+You’ll be able to log in as an admin or student, view dashboards, and test API functionality.
+If Docker is used, all components run automatically inside containers.
+
 
 
 
