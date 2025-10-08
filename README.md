@@ -128,7 +128,7 @@ If Docker is used, all components run automatically inside containers.
  **Authentication**
 Method	   Endpoint	        Description
 Post    /api/auth/login     Authenticate a user and return a JWT token
-POST    /api/auth/register  Register a new student or admin
+POST    /api/auth/register  Register a new student or admin 
 
 
 
