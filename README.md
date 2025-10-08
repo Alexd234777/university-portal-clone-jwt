@@ -124,12 +124,36 @@ Once all services are running locally, open your browser and navigate to:
 You’ll be able to log in as an admin or student, view dashboards, and test API functionality.
 If Docker is used, all components run automatically inside containers.
 
-## API endpoints 
- **Authentication**
-Method	   Endpoint	        Description
-Post    /api/auth/login     Authenticate a user and return a JWT token
-POST    /api/auth/register  Register a new student or admin 
+## API Endpoints
 
+**Authentication**
+- `POST /api/auth/login` — Authenticate a user and return a JWT token  
+- `POST /api/auth/register` — Register a new student or admin  
+
+**Students**
+- `GET /api/students` — Retrieve all students  
+- `GET /api/students/{id}` — Get a specific student by ID  
+- `POST /api/students` — Add a new student  
+- `PUT /api/students/{id}` — Update student details  
+- `DELETE /api/students/{id}` — Delete a student  
+
+**Courses**
+- `GET /api/courses` — Retrieve all courses  
+- `POST /api/courses` — Add a new course  
+- `PUT /api/courses/{id}` — Update course details  
+- `DELETE /api/courses/{id}` — Delete a course  
+
+**Events**
+- `GET /api/events` — Retrieve all events  
+- `POST /api/events` — Add a new event  
+- `PUT /api/events/{id}` — Update event details  
+- `DELETE /api/events/{id}` — Delete an event  
+
+**Announcements**
+- `GET /api/announcements` — Retrieve announcements  
+- `POST /api/announcements` — Create a new announcement  
+
+---
 
 
 
