@@ -158,7 +158,7 @@ If Docker is used, all components run automatically inside containers.
 ## Screenshots
 
 **Frontend**
-(Frontend.png)
+!(Frontend.png)
 
 
 
