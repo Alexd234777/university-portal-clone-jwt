@@ -126,30 +126,9 @@ If Docker is used, all components run automatically inside containers.
 
 ## API endpoints 
  **Authentication**
-Method	Endpoint	Description
-POST	/api/auth/login	Authenticate a user and return a JWT token
-POST	/api/auth/register	Register a new student or admin
-Students
-Method	Endpoint	Description
-GET	/api/students	Retrieve all students
-GET	/api/students/{id}	Retrieve a student by ID
-POST	/api/students	Add a new student
-PUT	/api/students/{id}	Update student details
-DELETE	/api/students/{id}	Delete a student
-Courses
-Method	Endpoint	Description
-GET	/api/courses	Retrieve all courses
-GET	/api/courses/{id}	Retrieve a specific course
-POST	/api/courses	Add a new course
-PUT	/api/courses/{id}	Update course details
-DELETE	/api/courses/{id}	Delete a course
-Announcements & Events
-Method	Endpoint	Description
-GET	/api/announcements	Get all announcements
-POST	/api/announcements	Add new announcement
-GET	/api/events	Get all events
-POST	/api/events	Create new event
-
+Method	   Endpoint	        Description
+Post    /api/auth/login     Authenticate a user and return a JWT token
+POST    /api/auth/register  Register a new student or admin
 
 
 
